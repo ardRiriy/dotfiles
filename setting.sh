@@ -28,4 +28,7 @@ curl -L http://get.oh-my.fish | fish
 
 printf(""omf install bobthefish"を実行してね！\n");
 
+rm ~/.config/fish/config.fish 
+ln -s ~/dotfiles/fish/config.fish ~/.config/fish/config.fish
+
 echo "setting is all done!"
