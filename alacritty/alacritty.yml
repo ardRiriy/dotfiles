@@ -1,0 +1,29 @@
+# 余白設定
+window:
+  padding:
+    x: 4
+    y: 4
+
+# フォント設定（サイズのみ）
+font:
+  size: 14
+  normal:
+    family: PlemolJP Console NF
+    style: Medium
+
+# スクロール設定
+scrolling:
+  history: 10000
+  multiplier: 3
+
+# 画面設定
+window:
+  opacity: 0.9
+
+# tmuxで起動する場合
+shell:
+  program: /usr/bin/fish
+  args:
+    - -l
+    - -c
+    - "/usr/bin/tmux a -t 0 || /usr/bin/tmux -u"
