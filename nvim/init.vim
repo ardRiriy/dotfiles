@@ -1,4 +1,4 @@
-":AirlineTheme papercolor バックアップファイルを作らない
+"papercolor バックアップファイルを作らない
 set nobackup
 
 " スワップファイルを作らない
@@ -56,6 +56,7 @@ Plug 'joshdick/onedark.vim'
 Plug 'cocopon/iceberg.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'rust-lang/rust.vim'
+Plug 'scrooloose/nerdtree'
 
 call plug#end()
 
@@ -76,3 +77,6 @@ inoremap <silent><expr> <Tab>
 """ <Tab>で次、<S+Tab>で前
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+
+"""Nerdtree
+nnoremap <silent><C-e> :NERDTreeToggle<CR>
