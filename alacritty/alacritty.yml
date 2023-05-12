@@ -6,10 +6,10 @@ window:
 
 # フォント設定（サイズのみ）
 font:
-  size: 15
+  size: 14
   normal:
-    family: Cica
-    style: Regular
+    family: PlemolJP Console NF
+    style: Text
 
 # スクロール設定
 scrolling:
