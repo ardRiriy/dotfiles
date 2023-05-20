@@ -4,3 +4,6 @@ end
 
 abbr ls lsd
 abbr xclips "xclip -selection clipboard <"
+
+alias gp+='gpp_compile_and_run '
+
