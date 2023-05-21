@@ -57,10 +57,12 @@ Plug 'cocopon/iceberg.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'rust-lang/rust.vim'
 Plug 'scrooloose/nerdtree'
+Plug 'octol/vim-cpp-enhanced-highlight'
 
 call plug#end()
 
-syntax enable
+syntax on
+
 colorscheme iceberg
 
 "" coc.nvim
