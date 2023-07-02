@@ -4,6 +4,8 @@ end
 
 abbr ls lsd
 abbr xclips "xclip -selection clipboard <"
+alias gpp 'gcc $argv -Wall && ./a.out'
+alias gp+ 'g++ $argv -Wall && ./a.out'
 
-alias gp+='gpp_compile_and_run '
 
+set -U fish_user_paths /home/ardririy/.cargo/bin $fish_user_paths
