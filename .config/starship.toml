@@ -1,0 +1,57 @@
+# エディターの補完を設定スキーマに合わせて取得
+"$schema" = 'https://starship.rs/config-schema.json'
+
+# シェルのプロンプトの間に空行を挿入する
+add_newline = true
+
+format = """
+$time $username $directory $git_branch$git_status $fill $cmd_duration
+$character
+"""
+
+
+continuation_prompt = '▶▶ '
+
+[fill]
+disabled = false
+
+[character]
+success_symbol = '[❯](bold green)' 
+error_symbol= '[❯](bold red)'
+
+[time]
+disabled = false
+format = '[\[$time\]]($style)'
+style =  'bold #c0d3f0'
+
+[directory]
+format = '[$path](#b8b8b8)'
+
+[username]
+style_user = "#f0c0e1"
+style_root = "red"
+format = '[\($user\)]($style)'
+show_always = true
+
+[hostname]
+disabled = false
+
+[cmd_duration]
+min_time = 1000
+format = '[\($duration\)](red)'
+
+[git_branch]
+format = '[$symbol$branch(:$remote_branch)]($style) '
+style = 'bold #ff88ff'
+[package]
+disabled = true
+
+[git_status]
+ahead = '⇡${count}'
+diverged = '⇕⇡${ahead_count}⇣${behind_count}'
+behind = '⇣${count}'
+untracked = '?${count}'
+modified = '*${count}'
+staged = '[++\($count\)](green)'
+renamed = '»${count}'
+deleted = '✘${count}'
