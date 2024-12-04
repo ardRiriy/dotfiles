@@ -1,0 +1,21 @@
+{
+    "editor.fontFamily": "'Moralerspace Argon', 'Droid Sans Mono', 'monospace', monospace",
+    "editor.semanticHighlighting.enabled": true,
+    "terminal.integrated.minimumContrastRatio": 1,
+    "window.titleBarStyle": "custom",
+    "workbench.colorTheme": "GitHub Dark Default",
+    "vim.useSystemClipboard": true,
+    "explorer.confirmDelete": false,
+    "git.openRepositoryInParentFolders": "never",
+    "editor.lineNumbers": "relative",
+    "editor.wordWrap": "on",
+    "explorer.compactFolders": false,
+    "workbench.panel.defaultLocation": "right",
+    "catppuccin.accentColor": "pink",
+    "catppuccin.colorOverrides": {
+        "mocha": {
+            "base": "#161616"
+        }
+    }
+
+}
