@@ -23,3 +23,6 @@ github = "zsh-users/zsh-syntax-highlighting"
 [plugins.zsh-abbr]
 github = "olets/zsh-abbr"
 
+[plugins.k]
+github = "supercrabtree/k"
+
